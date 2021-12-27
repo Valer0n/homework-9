@@ -1,0 +1,105 @@
+$color-white: #FFFFFF;
+$color-paris: #33CCCC;
+$color-belgrade: #996699;
+$color-venice: #C24747;
+$color-tel-aviv: #E2674A;
+$color-kyiv: #FFCC66;
+$color-amsterdam: #99CC99;
+$color-tokyo: #669999;
+$color-san-francisco: #CC6699;
+$color-sydney: #339966;
+$color-new-delhi: #666699;
+$color-blue: #3399CC;
+$color-dark-blue: #2B81AC;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    .hero {
+        background-color: $color-blue;
+        border: 15px solid $color-dark-blue;
+        color: $color-white;
+        padding: 95px 130px;
+        ul {
+            font-size: 0;
+            list-style: none;
+            width: 100%;
+            li {
+                display: inline-block;
+                border: 3px solid $color-white;
+                margin: -3px 0px 0 0;
+                font-weight: 700;
+                font-size: 16px;
+                letter-spacing: 0.05em;
+                min-height: 79px;
+                padding: 16px 0;
+                text-align: center;
+                opacity: 0.7;
+                &:hover {
+                    opacity: 1;
+                }
+                span {
+                    display: block;
+                    font-weight: 400;
+                    font-size: 18px;
+                    svg {
+                        vertical-align: sub;
+                        fill: $color-white;
+                    }
+                }
+            }
+            .lisbon {
+                width: 50%;
+                background-color: $color-blue;
+            }
+            .paris {
+                width: 25%;
+                background-color: $color-paris;
+            }
+            .belgrad {
+                width: 25%;
+                background-color: $color-belgrade;
+            }
+            .venice {
+                width: 25%;
+                background-color: $color-venice;
+            }
+            .telaviv {
+                width: 25%;
+                background-color: $color-tel-aviv;
+            }
+            .kyiv {
+                width: 25%;
+                background-color: $color-kyiv;
+            }
+            .amsterdam {
+                width: 25%;
+                background-color: $color-amsterdam;
+            }
+            .tokyo {
+                width: 25%;
+                background-color: $color-tokyo;
+            }
+            .sydney {
+                width: 25%;
+                background-color: $color-sydney;
+            }
+            .sanfrancisco {
+                width: 50%;
+                background-color: $color-san-francisco;
+            }
+            .newdelhi {
+                width: 100%;
+                background-color: $color-new-delhi;
+            }
+        }
+    }
+}

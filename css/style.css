@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.1s ease-in;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+main .hero {
+  background-color: #3399CC;
+  border: 15px solid #2B81AC;
+  color: #FFFFFF;
+  padding: 95px 130px;
+}
+main .hero ul {
+  font-size: 0;
+  list-style: none;
+  width: 100%;
+}
+main .hero ul li {
+  display: inline-block;
+  border: 3px solid #FFFFFF;
+  margin: -3px 0px 0 0;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  min-height: 79px;
+  padding: 16px 0;
+  text-align: center;
+  opacity: 0.7;
+}
+main .hero ul li:hover {
+  opacity: 1;
+}
+main .hero ul li span {
+  display: block;
+  font-weight: 400;
+  font-size: 18px;
+}
+main .hero ul li span svg {
+  vertical-align: sub;
+  fill: #FFFFFF;
+}
+main .hero ul .lisbon {
+  width: 50%;
+  background-color: #3399CC;
+}
+main .hero ul .paris {
+  width: 25%;
+  background-color: #33CCCC;
+}
+main .hero ul .belgrad {
+  width: 25%;
+  background-color: #996699;
+}
+main .hero ul .venice {
+  width: 25%;
+  background-color: #C24747;
+}
+main .hero ul .telaviv {
+  width: 25%;
+  background-color: #E2674A;
+}
+main .hero ul .kyiv {
+  width: 25%;
+  background-color: #FFCC66;
+}
+main .hero ul .amsterdam {
+  width: 25%;
+  background-color: #99CC99;
+}
+main .hero ul .tokyo {
+  width: 25%;
+  background-color: #669999;
+}
+main .hero ul .sydney {
+  width: 25%;
+  background-color: #339966;
+}
+main .hero ul .sanfrancisco {
+  width: 50%;
+  background-color: #CC6699;
+}
+main .hero ul .newdelhi {
+  width: 100%;
+  background-color: #666699;
+}
+
+/*# sourceMappingURL=style.css.map */
